@@ -67,7 +67,7 @@
         ng-controller="headerController">
         <div class="header--left" ng-class="{'is-hidden': experienceActive}">
             <a class="logo" href="#" title="Brand" ng-click="goHome($event)">
-                <img src="{{ asset('/assets/images/icons/logo.png') }}" style="height: 53px !important" alt="knkm">
+                <img src="{{ asset('/assets/images/icons/logo-white.png') }}" style="height: 53px !important" alt="knkm">
             </a>
             <a class="logo" href="#" title="Brand" ng-click="goHome($event)">
                 <img src="{{ asset('/assets/images/icons/logo-kementrian.svg') }}" alt="knkm">
