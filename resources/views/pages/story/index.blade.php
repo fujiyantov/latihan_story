@@ -73,14 +73,14 @@
     <header class="is-enabled is-visible" ng-class="{'is-visible': headerVisible, 'is-enabled': headerEnabled}"
         ng-controller="headerController">
         <div class="header--left" ng-class="{'is-hidden': experienceActive}">
-            <a class="logo" href="#" title="Brand" ng-click="goHome($event)">
+            <a class="logo" href="https://culture.borobudurside.com" title="Brand" ng-click="goHome($event)">
                 <img src="{{ asset('/assets/images/icons/logo-white.png') }}" style="height: 53px !important"
                     alt="knkm">
             </a>
-            <a class="logo" href="#" title="Brand" ng-click="goHome($event)">
+            <a class="logo" href="https://culture.borobudurside.com" title="Brand" ng-click="goHome($event)">
                 <img src="{{ asset('/assets/images/icons/logo-kementrian.svg') }}" alt="knkm">
             </a>
-            <a class="logo" href="#" title="Brand" ng-click="goHome($event)">
+            <a class="logo" href="https://culture.borobudurside.com" title="Brand" ng-click="goHome($event)">
                 <img src="{{ asset('/assets/images/icons/logo-kbkm.png') }}" alt="kbkm">
             </a>
         </div>
