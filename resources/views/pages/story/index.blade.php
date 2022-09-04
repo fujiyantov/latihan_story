@@ -59,6 +59,13 @@
         .takeaction .takeaction-formintro p {
             width: 100% !important;
         }
+
+        .takeaction .takeaction--form iframe {
+            min-height: 300px !important;
+            position: relative;
+            width: 40%;
+            z-index: 1;
+        }
     </style>
 </head>
 
@@ -67,7 +74,8 @@
         ng-controller="headerController">
         <div class="header--left" ng-class="{'is-hidden': experienceActive}">
             <a class="logo" href="#" title="Brand" ng-click="goHome($event)">
-                <img src="{{ asset('/assets/images/icons/logo-white.png') }}" style="height: 53px !important" alt="knkm">
+                <img src="{{ asset('/assets/images/icons/logo-white.png') }}" style="height: 53px !important"
+                    alt="knkm">
             </a>
             <a class="logo" href="#" title="Brand" ng-click="goHome($event)">
                 <img src="{{ asset('/assets/images/icons/logo-kementrian.svg') }}" alt="knkm">
@@ -168,7 +176,8 @@
         <section class="takeaction ng-scope is-active">
             <div class="takeaction--gradient" ng-class="{'is-visible': (showGradient && active)}"></div>
             <div class="takeaction--callout is-active" ng-class="{'is-active': active}">
-                <div class="takeaction-bg" style="background: url(' {{ villageImageUrl($item->image) }} ') center center no-repeat"></div>
+                <div class="takeaction-bg"
+                    style="background: url(' {{ villageImageUrl($item->image) }} ') center center no-repeat"></div>
                 <h1>Story<br />{{ $item->name }}</h1>
                 <p><strong>Public lands have never been more threatened than right now.</strong></p>
                 <p>&nbsp;</p>

@@ -7542,7 +7542,7 @@ section.credits .credits-group strong .overlay--play .overlay-playButton a,
 
 .takeaction .takeaction--form iframe {
   /* display: block; */
-  min-height: 300px !important;
+  min-height: 300px;
   position: relative;
   width: 40%;
   z-index: 1;
