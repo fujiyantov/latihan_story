@@ -63,7 +63,7 @@
         .takeaction .takeaction--form iframe {
             min-height: 300px !important;
             position: relative;
-            width: 40%;
+            width: 60%;
             z-index: 1;
         }
     </style>
