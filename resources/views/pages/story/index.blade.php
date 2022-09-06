@@ -3,24 +3,7 @@
 
 <head>
     <base href="/" />
-    <title>Lorem Ipsum Dolor Sit Amet</title>
-    <meta property="og:site_name" content="Defend Bears Ears" />
-    <meta property="og:title" content="Borobudur" />
-    <meta property="og:url" content="#" />
-    <meta property="og:description"
-        content="Keep public lands in public hands. Protect Bears Ears National Monument and its millions of acres of world-class recreation, archeology, and culture." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="#" />
-    <meta name="name" content="Defend Bears Ears" />
-    <meta name="url" content="#" />
-    <meta name="twitter:title" content="Borobudur" />
-    <meta name="twitter:url" content="#" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description"
-        content="Keep public lands in public hands. Protect Bears Ears National Monument and its millions of acres of world-class recreation, archeology, and culture.">
-    <meta name="twitter:image" content="#">
-    <meta name="description"
-        content="Keep public lands in public hands. Protect Bears Ears National Monument and its millions of acres of world-class recreation, archeology, and culture." />
+    <title>Kemah Budaya Kaum Muda</title>
     <link rel="canonical" href="#" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -179,7 +162,7 @@
                 <div class="takeaction-bg"
                     style="background: url(' {{ villageImageUrl($item->image) }} ') center center no-repeat"></div>
                 <h1>Story<br />{{ $item->name }}</h1>
-                <p><strong>Public lands have never been more threatened than right now.</strong></p>
+                {{-- <p><strong>Public lands have never been more threatened than right now.</strong></p> --}}
                 <p>&nbsp;</p>
                 <p>{{ $item->description }}</p>
                 <p class="footnote"><strong>Posted by KBKM</a></strong></p>
