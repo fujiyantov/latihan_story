@@ -3,7 +3,7 @@
 
 <head>
     <base href="/" />
-    <title>Kemah Budaya Kaum Muda</title>
+    <title>Wonderful Culture and Village Around Borobudur</title>
     <link rel="canonical" href="#" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
